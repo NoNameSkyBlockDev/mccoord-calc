@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="utf-8"></meta>
+      <title></title>
+      <link rel="stylesheet" href="./style.css">
+      <script src="script.js"></script>
+  </head>
+  <body>
+      <h1 class="title-main">Minecraft Coordinate Calculator</h1>
+      Now World: <select id="now_world">
+        <option value="Overworld">Overworld</option>
+        <option value="Nether">Nether</option>
+      </select>
+      <p>
+        Coord:
+        <input type="number" id="coord_inx" placeholder="Pos X"></input>
+        <input type="number" id="coord_iny" placeholder="Pos Y"></input>
+        <input type="number" id="coord_inz" placeholder="Pos Z"></input>
+      </p>
+      <p>Output World: <span id="output_world">None</span></p>
+      <p>
+        Coord:
+        <input type="number" id="coord_outx" placeholder="Output Pos X" readonly></input>
+        <input type="number" id="coord_outy" placeholder="Output Pos Y" readonly></input>
+        <input type="number" id="coord_outz" placeholder="Output Pos Z" readonly></input>
+      </p>
+  </body>
+</html>
