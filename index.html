@@ -2,15 +2,13 @@
   <head>
     <meta charset="utf-8"></meta>
       <title>Minecraft Coord Calculator</title>
-      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="https://sysnote8main.github.io/web-fontcss/styles/mycss1001.css">
       <script src="script.js"></script>
   </head>
   <body>
       <h1 class="title-main">Minecraft Coordinate Calculator</h1>
-      Now World: <select id="now_world">
-        <option value="Overworld">Overworld</option>
-        <option value="Nether">Nether</option>
-      </select>
+      Now World is nether? <input id="btn_toggle" class="btn_input" type="checkbox"></input>
+      <label for="btn_toggle" class="btn_label"></label>
       <p>
         Coord:
         <input type="number" id="coord_inx" placeholder="Pos X"></input>
@@ -19,7 +17,7 @@
       </p>
       <p>Output World: <span id="output_world">None</span></p>
       <p>
-        Coord:
+        XYZ:
         <input type="number" id="coord_outx" placeholder="Output Pos X" readonly></input>
         <input type="number" id="coord_outy" placeholder="Output Pos Y" readonly></input>
         <input type="number" id="coord_outz" placeholder="Output Pos Z" readonly></input>
